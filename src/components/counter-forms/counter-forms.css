@@ -1,0 +1,29 @@
+.counterform input{
+  margin: 0.6rem;
+}
+
+.counterform form{
+  display: flex;
+  align-items: center;
+}
+
+.counterform input[type=submit]{
+  
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 12px;
+  
+
+}
+
+input[type="number"] {
+  border-color: #4CAF50;
+  width: fit-content;
+
+}
+
+input[type="number"]:focus {
+  color: initial;
+  border-color: initial;
+
+}

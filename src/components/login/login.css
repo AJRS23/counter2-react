@@ -1,0 +1,30 @@
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  background-color: #282c34;
+  height: 100vh;
+  font-size: 1.25rem;
+}
+.login input{
+  margin: 0.6rem;
+}
+
+.login form{
+  display: flex;
+  align-items: center;
+}
+
+.login input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  border: 2px solid #4CAF50; /* Green */
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin: 0.5rem;
+  font-size: 1rem;
+
+}
